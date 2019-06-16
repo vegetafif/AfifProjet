@@ -1,5 +1,6 @@
 package launch;
 
+import graphiques.Accueil;
 import voitures.voiture;
 
 public class Launch {
@@ -13,10 +14,12 @@ public class Launch {
 		String carburant = "essence";
 		int age = 12;
 		
-		voiture voit = new voiture(modele, marque, couleur, km, carburant, age);		
-		System.out.println(voit);
-		voit.setAge(15);
-		System.out.println(voit);
+		//voiture voit = new voiture(modele, marque, couleur, km, carburant, age);		
+		//System.out.println(voit);
+		//voit.setAge(15);
+		//	System.out.println(voit);
+		
+		Accueil a = new Accueil ();
 		
 	}
 

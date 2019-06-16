@@ -6,7 +6,7 @@ import javax.swing.JFrame;
 public class Authentification extends JFrame{
 	
    public static void main (String[] args) {
-	         
+
 	   JFrame fenetre = new JFrame("Identification");
 	   
 	   fenetre.setContentPane(new AuthentificationLayout());
@@ -15,7 +15,6 @@ public class Authentification extends JFrame{
 	   fenetre.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);	
 	   fenetre.setResizable(false);
 	   fenetre.setVisible(true);
-        
 
    }
 
