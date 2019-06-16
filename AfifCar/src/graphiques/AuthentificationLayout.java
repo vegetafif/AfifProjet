@@ -16,7 +16,8 @@ public class AuthentificationLayout extends JPanel{
 		this.add(new TextField (10));
 		this.add(new JLabel ("mot de passe"));
 		this.add(new JPasswordField (10));
-		this.add(new Button ("connexion"));		      
+		this.add(new Button ("connexion"));	
+		
 	}
 	
 	

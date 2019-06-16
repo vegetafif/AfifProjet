@@ -10,7 +10,7 @@ public class Authentification extends JFrame{
 	   JFrame fenetre = new JFrame("Identification");
 	   
 	   fenetre.setContentPane(new AuthentificationLayout());
-	   fenetre.setTitle("Grid Layout");
+	   //fenetre.setTitle("Grid Layout");
 	   fenetre.setSize(600, 200);
 	   fenetre.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);	
 	   fenetre.setResizable(false);
