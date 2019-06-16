@@ -1,32 +1,21 @@
-package Swing;
-
-import java.awt.Button;
-import java.awt.FlowLayout;
-import java.awt.TextField;
+package graphiques;
 
 import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JPasswordField;
+
 
 public class Authentification extends JFrame{
 	
    public static void main (String[] args) {
-	   
+	         
 	   JFrame fenetre = new JFrame("Identification");
-	   fenetre.setLayout(new FlowLayout(FlowLayout.LEFT,50,50));
 	   
-	   fenetre.add(new JLabel ("pseudonyme"));
-	   fenetre.add(new TextField (10));
-	   fenetre.add(new JLabel ("mot de passe"));
-	   fenetre.add(new JPasswordField (10));
-	   fenetre.add(new Button ("connexion"));
-	   
-	   fenetre.pack();
-	   
-	   fenetre.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	   fenetre.setContentPane(new AuthentificationLayout());
+	   fenetre.setTitle("Grid Layout");
+	   fenetre.setSize(600, 200);
+	   fenetre.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);	
+	   fenetre.setResizable(false);
 	   fenetre.setVisible(true);
-	   
-	   
+        
 
    }
 
