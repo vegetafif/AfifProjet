@@ -1,4 +1,4 @@
-package graphiques;
+package Swing;
 
 import java.awt.Button;
 import java.awt.FlowLayout;
