@@ -25,7 +25,8 @@ public class SwingCar extends JFrame{
 	   
 	   fenetre.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	   fenetre.setVisible(true);
-	   
+	  // fenetre.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
+
 	   
 
    }
