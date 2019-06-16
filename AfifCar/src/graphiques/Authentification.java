@@ -12,6 +12,8 @@ public class Authentification extends JFrame{
 	
    public static void main (String[] args) {
 	   
+	  
+	   
 	   JFrame fenetre = new JFrame("Identification");
 	   fenetre.setLayout(new FlowLayout(FlowLayout.LEFT,50,50));
 	   
@@ -26,7 +28,7 @@ public class Authentification extends JFrame{
 	   fenetre.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	   fenetre.setVisible(true);
 	  // fenetre.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
-
+	   
 	   
 
    }
