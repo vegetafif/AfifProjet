@@ -1,4 +1,4 @@
-package Swing;
+package graphiques;
 
 import java.awt.Button;
 import java.awt.FlowLayout;
@@ -8,7 +8,7 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPasswordField;
 
-public class SwingCar extends JFrame{
+public class Authentification extends JFrame{
 	
    public static void main (String[] args) {
 	   
