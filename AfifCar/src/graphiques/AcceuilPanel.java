@@ -8,9 +8,9 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 
-public class AcceuilObjetJPanel extends JPanel{
+public class AcceuilPanel extends JPanel{
 	
-	public AcceuilObjetJPanel () {
+	public AcceuilPanel () {
 		   this.setLayout(new GridLayout(7,2,20,20));
 		   this.add(new JLabel ("Marque"));
 		   this.add(new JComboBox<>());

@@ -8,9 +8,9 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JPasswordField;
 
-public class AuthentificationLayout extends JPanel{
+public class AuthentificationPanel extends JPanel{
 
-	AuthentificationLayout(){	
+	AuthentificationPanel(){	
 		this.setLayout(new FlowLayout(FlowLayout.LEFT,50,50));		   
 		this.add(new JLabel ("pseudonyme"));
 		this.add(new TextField (10));

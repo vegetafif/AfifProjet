@@ -1,11 +1,15 @@
 package launch;
 
-import graphiques.Accueil;
+import graphiques.AcceuilFrame;
+import graphiques.AuthentificationFrame;
 import voitures.voiture;
 
 public class Launch {
 
 	public static void main(String[] args) {
+
+		AuthentificationFrame athe = new AuthentificationFrame();
+		AcceuilFrame acc = new AcceuilFrame();
 		
 		String modele = "peugeot";
 		String marque = "206";
@@ -14,12 +18,7 @@ public class Launch {
 		String carburant = "essence";
 		int age = 12;
 		
-		//voiture voit = new voiture(modele, marque, couleur, km, carburant, age);		
-		//System.out.println(voit);
-		//voit.setAge(15);
-		//	System.out.println(voit);
-		
-		Accueil a = new Accueil ();
+
 		
 	}
 
