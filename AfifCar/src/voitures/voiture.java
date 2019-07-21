@@ -9,6 +9,15 @@ public class voiture {
 	String carburant;
 	int age;
 	
+	public voiture(){
+		super();
+	}
+	
+	public voiture(String modele, String marque){
+		super();
+		this.modele = modele;
+	}
+	
 	public voiture(String modele, String marque, String couleur, double km, String carburant, int age) {
 		super();
 		this.modele = modele;
